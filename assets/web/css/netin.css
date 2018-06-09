@@ -1,0 +1,255 @@
+/***********BANNER-NETINDO*********/
+	
+
+.w3ls-banner-shadow {
+  background: rgba(226, 226, 226, 0.5);
+  width: 56%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3em;
+  box-shadow: 0 0 50px #333333;
+	border-radius:4px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+.agileits-banner-info:hover div.w3ls-banner-shadow{
+	background:#000000;
+}
+/*--slider--*/
+#slider2,
+#slider3 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+}
+.rslides_tabs li:first-child {
+  margin-left: 0;
+}
+.rslides_tabs .rslides_here a {
+  background: rgba(255,255,255,.1);
+  color: #fff;
+  font-weight: bold;
+}
+.events {
+  list-style: none;
+}
+.callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.callbacks li {
+  position: absolute;
+  width: 100%;
+}
+.callbacks img {
+  position: relative;
+  z-index: 1;
+  height: auto;
+  border: 0;
+}
+.callbacks .caption {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	font-size: 20px;
+	text-shadow: none;
+	color: #fff;
+	left: 0;
+	right: 0;
+	padding: 10px 20px;
+	margin: 0;
+	max-width: none;
+	top: 10%;
+	text-align: center;
+}
+.callbacks_nav {
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    bottom: -50%;
+    left: 0;
+    opacity: 0.6;
+    z-index: 3;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background: transparent url("../images/arrows.png") no-repeat left top;
+}
+ .callbacks_nav:hover{
+  	opacity: 0.3;
+  }
+.callbacks_nav.next {
+  left: auto;
+    background-position: right top;
+  left: 95.5%;
+ }
+ .callbacks_nav.prev {
+	right: auto;
+	background-position:left top;
+	left: 91%;
+}
+#slider3-pager a {
+  display: inline-block;
+}
+#slider3-pager span{
+  float: left;
+}
+#slider3-pager span{
+	width:100px;
+	height:15px;
+	background:#fff;
+	display:inline-block;
+	border-radius:30em;
+	opacity:0.6;
+}
+#slider3-pager .rslides_here a {
+  background: #FFF;
+  border-radius:30em;
+  opacity:1;
+}
+#slider3-pager a {
+  padding: 0;
+}
+#slider3-pager li{
+	display:inline-block;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display:none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li{
+  position: relative;
+  display: block;
+  float: left;
+}
+.rslides img {
+  height: auto;
+  border: 0;
+  }
+.callbacks_tabs{
+    list-style: none;
+    position: absolute;
+    top: 90%;
+    left: 47%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    z-index: 999;
+}
+.slider-top span{
+	font-weight:600;
+}
+.callbacks_tabs li{
+    display: inline-block;
+    margin: 0;
+}
+/*----*/
+.callbacks_tabs a{
+ visibility: hidden;
+}
+.callbacks_tabs a:after {
+    content: "\f111";
+    font-size: 0;
+    font-family: FontAwesome;
+    visibility: visible;
+    display: block;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.callbacks_here a:after{
+	background: #ef543b;
+    border: 2px solid #ffffff;
+}
+
+.agileits-banner-info h3 {
+    font-size: 4em;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    z-index: 9;
+}
+.agileits-banner-info{
+	background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 630px;
+    padding: 12em 0;
+}
+.agileits-banner-info1{
+	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	  background-size: cover;
+    min-height: 630px;
+    padding: 12em 0;
+}
+.agileits-banner-info2{
+	background: url(../images/banner.jpg) no-repeat 0px 0px;
+	  background-size: cover;
+    min-height: 630px;
+    padding: 12em 0;
+}
+.agileits-banner-info p{
+	font-size: .9em;
+    color: #FFFFFF;
+    z-index: 9;
+    margin: 1em 0 0 0;
+    font-weight: 800;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+	.netindo-banner h3.home-section-h3 {border:1px solid black;font-size: 4em;margin-bottom: 0px;font-weight: 600; text-transform: uppercase;color: #FFFFFF;letter-spacing: 3px;z-index: 9;}
+	.netindo-banner{background: url('assets/background-banner.png') no-repeat 0px 0px;min-height: 630px;padding: 12em 0;background-attachment: fixed;background-position: center;
+	  background-repeat: no-repeat;background-size: cover;}
+	.netindo-banner1{background: url('assets/background-banner.png') no-repeat 0px 0px;min-height:630px;padding: 12em 0;background-attachment: fixed;background-position: center;
+	  background-repeat: no-repeat;background-size: cover;}
+	.netindo-banner2{background: url('assets/background-banner.png') no-repeat 0px 0px;min-height:630px;padding: 12em 0;background-attachment: fixed;background-position: center;
+	  background-repeat: no-repeat;background-size: cover;}
+	.netindo-banner p{font-size: .9em;color: #FFFFFF;z-index: 9;margin: 1em 0 0 0;font-weight: 800;letter-spacing: 6px;text-transform: uppercase;}
+	.netindo-banner-right, .netindo-banner-left{height:300px;padding:0px 0px 0px 0px;margin-top:-50px;}
+	.netindo-banner-right, h1.home-section-h1, h4.home-section-h4{color:white!important;}
+	.netindo-banner-right, h4{padding:5px 0px 2px 0px;}
+	a.btn-trial{margin-top:30px;font-weight: bold;padding:13px 25px;-webkit-transition-delay:0s;-webkit-transition-delay:#fff, 0s, ease;-moz-transition-delay: #fff, 0s, ease;-ms-transition-delay:#fff, 0s, ease;-o-transition-delay:#fff, 0s, ease;transition-delay: #fff, 0s, ease;transition-timing-function: ease;border-width: 1px;-webkit-transition-duration: 0.2s;transition-duration: 0.2s;border-radius: 34px;color:white!important; border-color:#EEEEEE;background-color:transparent;border-style:solid;font-size:16px;font-weight:600;text-decoration:none;line-height:19px;font-family:ProximaNova-Semibold, sans-serif;border:2px solid #eeeeee;}
+	a.btn-trial:hover{background:#00BCD4;color:white;border-color:#EEEEEE;}
+	.callbacks_here a:after{background: #00BCD4;border: 2px solid #00BCD4;}
+	@media (max-width: 991px){
+	.navbar-nav > li > a {padding: .7em 1em;}
+	@media (max-width: 767px){
+		.netindo-banner-left{margin-top: -100px;}
+		img.mobile{padding:0px 0px 0px 0px;margin-top:10px;}
+		h1.home-section-h1{font-size:30px;}
+	}
+	/***********END BANNER-NETINDO*********/
+	
